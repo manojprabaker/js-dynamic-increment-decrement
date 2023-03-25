@@ -29,6 +29,13 @@ function subFun()
 {
 	let val=parseInt(document.querySelector(".values-input").value);
 	console.log(val);
+	if(val<=0)
+	{
+		val;
+	}
+	else
+	{
 	val--;
+	}
 	document.querySelector(".values-input").value=val;
 }
